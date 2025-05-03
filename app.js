@@ -1,12 +1,14 @@
 let gameSeq = []
 let userSeq = []
-
+let highestScore = 0
 let btns = ["yellow", "red", "green", "blue"]
 
 let started = false;
 let level = 0;
 
 let h2 = document.querySelector('h2')
+let h3 = document.querySelector('h3')
+
 
 
 document.addEventListener("keypress", function(){
@@ -32,11 +34,13 @@ function userFlash(btn){
 }
 
 function levelUp(){
+    highestScore = Math.max(highestScore, userSeq.length)
     userSeq=[]
     level++
 
 
     h2.innerText = `Level ${level}` ;
+    h3.innerHTML = `Your Highesh Score:<b>${highestScore}</b>`
 
     let randIdx = Math.floor(Math.random()*4);
     let randColor = btns[randIdx];
