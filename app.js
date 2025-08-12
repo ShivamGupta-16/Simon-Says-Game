@@ -1,6 +1,6 @@
 let gameSeq = []
 let userSeq = []
-let highestScore = 0
+let highestScore = 0  
 let btns = ["yellow", "red", "green", "blue"]
 
 let started = false;
