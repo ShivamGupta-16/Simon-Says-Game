@@ -1,5 +1,5 @@
 # 🎮 **Simon Says Game** 🎮
-
+ 
 ### The ultimate test of your memory! 🧠💥  
 Welcome to **Simon Says**, a fun and challenging game where **you** follow the colors, and Simon will test if you can remember the sequence! The longer you last, the harder it gets! Can you beat your high score and become the **Simon Says** champion? 🏆
 
